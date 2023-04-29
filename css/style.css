@@ -91,7 +91,59 @@ li{
     font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
-    color:red;
+    color: #757575;  
 }
-
-
+.work{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.work-imgs{
+    width: 370px;
+    height: 294px;
+    left: 215px;
+}
+.team{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-pic{
+    border-radius: 0px;
+    width: 270px;
+    height: 260px;
+}
+.team-name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.work-name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color:#757575;
+}
+main{
+    background-color: #F5F4FA;
+}
+footer{
+    background-color: #2F303A;
+}
