@@ -3,7 +3,7 @@ body{
     font-style: normal;
 }
 .logo{
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -11,6 +11,7 @@ body{
     letter-spacing: 0.03em;
     color: #000000;
     text-decoration: none;
+    
 }
 .web{
     color:#2196F3;
@@ -19,7 +20,7 @@ li{
     list-style: none;
 }
 .link{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -32,7 +33,7 @@ li{
     color:#2196F3;
 }
 .tel{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -42,7 +43,7 @@ li{
     text-decoration: none;
 }
 .hero-title{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -60,7 +61,7 @@ li{
     top: 80px;
 }
 .hero-btn{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -75,7 +76,7 @@ li{
     border-radius: 4px;
 }
 .adv-h{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -85,7 +86,7 @@ li{
     color: #212121;
 }
 .class{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -94,7 +95,7 @@ li{
     color: #757575;  
 }
 .work{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -109,7 +110,7 @@ li{
     left: 215px;
 }
 .team{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -124,7 +125,7 @@ li{
     height: 260px;
 }
 .team-name{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -133,7 +134,7 @@ li{
     color: #212121;
 }
 .work-name{
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -146,4 +147,16 @@ main{
 }
 footer{
     background-color: #2F303A;
+    margin: 0;
+}
+.card-bg{
+    width: 270px;
+    height: 368px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0
+    
+}
+.top{
+    display: flex;
 }
