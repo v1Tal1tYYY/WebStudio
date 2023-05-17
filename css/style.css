@@ -2,6 +2,10 @@ body{
     font-family: 'Roboto',sans-serif;
     font-style: normal;
 }
+ul,h1,h3,h4,p{
+    padding: 0;
+    margin: 0;
+}
 .logo{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -55,10 +59,7 @@ li{
 }
 .hero{
     background-color: #2F303A;
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
+    padding:200px;
 }
 .hero-btn{
     font-family: 'Roboto', sans-serif;
@@ -74,6 +75,10 @@ li{
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    width: 216px;
+    height: 50px;
+    display: block;
+    margin: auto ;
 }
 .adv-h{
     font-family: 'Roboto', sans-serif;
@@ -150,13 +155,45 @@ footer{
     margin: 0;
 }
 .card-bg{
+    margin: 0;
+    padding: 0;
     width: 270px;
     height: 368px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0
-    
+    border-radius: 0;   
 }
-.top{
+.container{
+    width: 1600px;
+    margin: 0 auto;
+}
+.header-main{
+    width: 1200px;
     display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+.header-left{
+    display: flex;
+    justify-content: space-between;
+    width: 520px;
+
+}
+.header-ul1{
+    display: flex;
+    justify-content: space-between;
+    width: 281px;
+    align-items: center;
+
+}
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    width: 307px;
+    align-items: center;
+}
+.osob{
+    width: 1170px;
+    height: 98px;
 }
