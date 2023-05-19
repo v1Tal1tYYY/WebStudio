@@ -155,6 +155,8 @@ main{
 footer{
     background-color: #2F303A;
     margin: 0;
+    width: 1600px;
+    height: 252px;
 }
 .card-bg{
     margin: 0;
@@ -176,6 +178,7 @@ footer{
     justify-content: space-between;
     margin: 0 auto;
     padding: 24px 0;
+    border-bottom: 1px solid #ECECEC;
 }
 .header-left{
     display: flex;
@@ -293,10 +296,6 @@ footer{
 .work-name4{
     text-align: center;
 }
-.footer{
-    width: 1600px;
-    height: 252px;
-}
 .address{
     display: flex;
     flex-direction: column;
@@ -324,7 +323,7 @@ footer{
     
 }
 .lesya{
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -337,7 +336,7 @@ footer{
     padding:60px 1240px 20px 215px
 }
 .mail2{
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
