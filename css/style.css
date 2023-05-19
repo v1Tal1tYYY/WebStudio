@@ -168,6 +168,7 @@ footer{
 .container{
     width: 1600px;
     margin: 0 auto;
+    background: #F5F5F5;
 }
 .header-main{
     width: 1200px;
@@ -258,6 +259,7 @@ footer{
     height: 648px;
     display: flex;
     justify-content: center;
+    background-color: #F5F4FA;
 }
 .teamates{
     width: 1170px;
@@ -354,4 +356,16 @@ footer{
     letter-spacing: 0.02em;
     color: #757575;
     text-decoration: none;
+}
+.mail2:hover{
+    color:#2196F3;
+}
+.tel2:hover{
+    color:#2196F3;
+}
+.mail:hover{
+    color:#2196F3;
+}
+.tel:hover{
+    color:#2196F3;
 }
