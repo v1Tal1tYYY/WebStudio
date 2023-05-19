@@ -89,6 +89,7 @@ li{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+    padding: 0 0 10px 0;
 }
 .class{
     font-family: 'Roboto', sans-serif;
@@ -108,6 +109,7 @@ li{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin: 0;
 }
 .work-imgs{
     width: 370px;
@@ -129,7 +131,7 @@ li{
     width: 270px;
     height: 260px;
 }
-.team-name{
+.team-name1, .team-name2, .team-name3, .team-name4{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -138,7 +140,7 @@ li{
     letter-spacing: 0.03em;
     color: #212121;
 }
-.work-name{
+.work-name1, .work-name2, .work-name3, .work-name4{
     font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -193,7 +195,163 @@ footer{
     width: 307px;
     align-items: center;
 }
-.osob{
+.feature{
     width: 1170px;
+    height: 98px;   
+    display: flex;
+    margin: 0 auto 94px;
+    padding: 94px 215px ; 
+    justify-content: center;
+}
+.feature1{
+    width: 270px;
+    height: 98px; 
+    margin: 0;
+}
+.feature2{
+    width: 270px;
+    height: 74px;
+    margin: 0 30px 24px 0 
+}
+.feature3{
+    width: 270px;
+    height: 74px;
+    margin: 0 30px 24px 0
+}
+.feature4{
+    width: 270px;
     height: 98px;
+    margin: 0;
+}
+.feature-left{
+    width: 570px;
+    height: 98px;
+    display: flex;
+    justify-content: space-between;
+}
+.feature-right{
+    width: 570px;
+    height: 98px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.we-do{
+    width: 1170px;
+    height: 386px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.box1, .box2, .box3{
+    width: 370px;
+    height: 294px;
+}
+.boxes{
+    width: 1170px;
+    height: 294px;
+    display: flex;
+    justify-content: space-between;
+}
+.our-team{
+    width: 1600px;
+    height: 648px;
+    display: flex;
+    justify-content: center;
+}
+.teamates{
+    width: 1170px;
+    height: 368px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.team-name1{
+    padding:30px 70px 10px;
+}
+.team-name2{
+    padding: 30px 83px 10px;
+}
+.team-name3{
+    padding: 30px  60px 10px; 
+    text-align: center;
+}
+.team-name4{
+    padding: 30px 62px 10px;
+}
+.work-name1{
+    text-align: center;
+}
+.work-name2{
+    text-align: center;
+}
+.work-name3{
+    text-align: center;
+}
+.work-name4{
+    text-align: center;
+}
+.footer{
+    width: 1600px;
+    height: 252px;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 1154px 60px 215px;
+}
+.mail{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+}
+.logo2{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color:#FFFFFF;
+    text-decoration: none;
+    
+}
+.lesya{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    padding: 0 0 9px 0;
+}
+.logogo{
+    padding:60px 1240px 20px 215px
+}
+.mail2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+    padding: 0 0 9px 0;
+}
+.tel2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
 }
